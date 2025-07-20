@@ -26,28 +26,29 @@ This website is based on the [Start Bootstrap Personal](https://github.com/start
 ---
 
 ## 📁 Project Structure
-├── scripts/ # Custom Node.js scripts to build/render the site
-│ ├── build-.js # Build steps for pug, scss, assets, etc.
-│ ├── render-.js # Rendering logic for different file types
-│ └── start*.js # Dev server and watchers
+
+```plaintext
+├── scripts/                 # Custom Node.js scripts to build/render the site
+│   ├── build-*.js           # Build steps for pug, scss, assets, etc.
+│   ├── render-*.js          # Rendering logic for different file types
+│   └── start*.js            # Dev server and file watchers
 │
-├── src/
-│ ├── assets/ # Images, fonts, or other static files
-│ ├── js/ # JavaScript logic
-│ ├── pug/ # Pug templates
-│ │ ├── includes/ # Partial files (contact, resume, etc.)
-│ │ ├── index.pug # Homepage
-│ │ ├── projects.pug # Projects page
-│ │ └── resume.pug # Resume section
-│ └── scss/ # Sass styles
-│ ├── components/ # Reusable components
-│ ├── _global.scss
-│ ├── _utilities.scss
-│ ├── _variables.scss
-│ └── styles.scss # Main entry file
+├── src/                     # Source files
+│   ├── assets/              # Images, fonts, or other static files
+│   ├── js/                  # JavaScript logic
+│   ├── pug/                 # Pug templates
+│   │   ├── includes/        # Partial files (contact, resume, etc.)
+│   │   ├── index.pug        # Homepage
+│   │   ├── projects.pug     # Projects page
+│   │   └── resume.pug       # Resume section
+│   └── scss/                # Sass styles
+│       ├── components/      # Reusable components
+│       ├── _global.scss
+│       ├── _utilities.scss
+│       ├── _variables.scss
+│       └── styles.scss      # Main SCSS entry file
 │
 ├── .gitignore
 ├── LICENSE
 ├── package-lock.json
-├── README.md # 👈 You are here!
-
+└── README.md                # 👈 You are here!
